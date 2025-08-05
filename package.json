@@ -1,0 +1,23 @@
+{
+  "name": "extract-design-brief-from-jira",
+  "version": "1.0.0",
+  "description": "Figma plugin to extract design briefs from Jira stories using OpenAI",
+  "main": "code.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.82.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "figma",
+    "plugin",
+    "jira",
+    "design-brief",
+    "openai"
+  ],
+  "author": "Moody's Design Team",
+  "license": "MIT"
+} 
